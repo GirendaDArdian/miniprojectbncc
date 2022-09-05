@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="home.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    
+    <header id="header">
+        <div id="navbar">
+        <img src="./Foto/logo1.png" alt="Skypics" id="logo1"> 
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                    <a href="#image2">About</a>
+                    <a href="#work">Work</a>
+                    <a href="#contactus">Contact Us</a>
+                </li> 
+        
+            </ul>
+        </div>
+        
+    </header>
+    <section>
+        <article>
+            <div id="home">
+                <img src="./Foto/home1.jpg" alt="" id="image1">
+                <img src="./Foto/skypic.png" alt="" id="skypics">
+                <p id="pskypics">The sky’s the limit</p>
+                <a id="down" href="#image2"><img src="./Foto/panahan.png" alt="about" ></a>
+            </div>
+
+            <div id="about">
+                <img id="image2" src="./Foto/home2.jpg" alt="">
+                <p id="pabout">About Us</p>
+                <img id="kamera1" src="./Foto/kamera1.png" alt="">
+                <p id="lorem1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ornare sagittis, pharetra, interdum dui, donec volutpat augue. Id aliquam, laoreet cursus aliquam.</p>
+            </div>
+            <div id="work">
+                <img id="image3" src="Foto/image5.png" alt="">
+                <p id="workp1">Our Work</p>
+                <img id="home3" src="./Foto/home3.jpg" alt="">
+                <img id="home4" src="./Foto/home4.jpg" alt="">
+                <img id="home5" src="./Foto/home5.jpg" alt="">
+                <img id="home6" src="./Foto/home6.jpg" alt="">
+            </div>
+            <div>
+                <img id="home7" src="./Foto/home7.jpg" alt="">
+                <p id="contactus">Contact Us</p>
+                <div class="container">
+            <form>
+                <br>
+                <input type="text" placeholder="First Name" id="first" autocomplete="off">
+                <input type="text" placeholder="Last Name" id="second" autocomplete="off">
+                <br>
+                <br>
+                <input type="email" placeholder="Email"required id="email" autocomplete="off">
+                <br>
+                <br>
+                <input type="phone" placeholder="Phone Number" id="phone" autocomplete="off">
+                <input type="radio" name="gender" value="Male" class="gender" autocomplete="off"><p class="gender">Male</p>
+                <input type="radio" name="gender" value="Female" class="gender" autocomplete="off" ><p class="gender">Female</p> 
+                <br>
+                <br>
+                <textarea placeholder="Message" id="message" autocomplete="off"></textarea>
+                <br>
+                <button oneclick="myFunction()">Submit</button>
+                <br>
+                
+        </div>
+            </div>
+        </article>
+    </section>
+    <footer class="footer">
+        <p class="makeby1">Designed and Managed by:</p>
+        <img class="makeby2" src="./Foto/logo1.png" alt="">
+        <p id="sosmed">Reach us at:</p>
+        <li>
+            <img id="email2"src="./Foto/email.png" alt="">
+            <img id="linked"src="./Foto/linked.png" alt="">
+            <img id="wasup"src="./Foto/WA.png" alt="">
+            <img id="insta"src="./Foto/IG.png" alt="">
+        </li>
+        <p id="copyright">&copy;2021 SkyPics, All Rights Reserved</p>
+    </footer>
+    
+
+
+    <script href="home.js"></script>
+
+</body>
+</html>
